@@ -1,0 +1,90 @@
+{
+  "name": "github-trending-cn",
+  "version": "1.0.0",
+  "description": "GitHub Trending 中文版",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "cross-env NODE_ENV=development concurrently \"vite\" \"wait-on http://localhost:3000 && electron .\"",
+    "kill-electron": "taskkill /F /IM electron.exe /T >nul 2>nul || exit 0",
+    "kill-app": "taskkill /F /IM CodeBundle.exe /T >nul 2>nul || exit 0",
+    "clean": "npm run kill-electron && npm run kill-app && rimraf dist && rimraf build",
+    "prebuild": "npm run clean",
+    "build": "vite build",
+    "build:win": "npm run build && electron-builder --win",
+    "build:mac": "npm run build && electron-builder --mac",
+    "build:linux": "npm run build && electron-builder --linux",
+    "build:all": "npm run build && electron-builder -mwl"
+  },
+  "build": {
+    "appId": "com.github-trending-cn.app",
+    "productName": "GitHub-Trending",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "build/**/*",
+      "src/main/**/*",
+      "node_modules/**/*"
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "public/icon.ico",
+      "signingHashAlgorithms": null,
+      "sign": null,
+      "artifactName": "${productName}-Setup-${version}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisniuse/CodeBundle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lisniuse/CodeBundle/issues"
+  },
+  "homepage": "https://github.com/lisniuse/CodeBundle#readme",
+  "dependencies": {
+    "@arco-design/web-react": "^2.65.0",
+    "@electron/remote": "^2.1.2",
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0",
+    "electron-store": "^10.0.1",
+    "https-proxy-agent": "^7.0.6",
+    "i18next": "^24.2.2",
+    "parse-gitignore": "^2.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^15.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "babel-loader": "^10.0.0",
+    "concurrently": "^9.1.2",
+    "cross-env": "^7.0.3",
+    "css-loader": "^7.1.2",
+    "del-cli": "^6.0.0",
+    "electron": "^34.3.0",
+    "electron-builder": "^25.1.8",
+    "electron-reload": "^2.0.0-alpha.1",
+    "electron-vite": "^3.0.0",
+    "path-browserify": "^1.0.1",
+    "rimraf": "^6.0.1",
+    "style-loader": "^4.0.0",
+    "vite": "^6.2.0",
+    "wait-on": "^8.0.2"
+  }
+}

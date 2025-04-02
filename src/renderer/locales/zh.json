@@ -1,0 +1,53 @@
+{
+  "common": {
+    "refresh": "刷新",
+    "loading": "加载中...",
+    "noRepositories": "暂无仓库数据",
+    "noDescription": "暂无描述",
+    "showOriginal": "查看原文",
+    "language": "编程语言",
+    "stars": "星标数",
+    "forks": "分叉数",
+    "starsToday": "今日新增星标",
+    "clearData": "清空本地列表",
+    "clearSuccess": "数据已清空",
+    "clearFailed": "清空数据失败",
+    "trending": "趋势",
+    "history": "历史记录",
+    "errors": {
+      "loadFailed": "加载数据失败",
+      "loadSettingsFailed": "加载设置失败",
+      "saveSettingsFailed": "保存设置失败",
+      "loadHistoryFailed": "加载历史记录失败"
+    }
+  },
+  "history": {
+    "title": "历史上榜项目",
+    "firstSeen": "首次上榜时间"
+  },
+  "tabs": {
+    "daily": "今日趋势",
+    "weekly": "本周趋势",
+    "monthly": "本月趋势",
+    "history": "历史记录"
+  },
+  "settings": {
+    "title": "设置",
+    "apiKey": "OpenRouter API 密钥",
+    "apiKeyRequired": "请输入 API 密钥",
+    "apiKeyPlaceholder": "请输入您的 OpenRouter API 密钥",
+    "apiKeyTip": "用于翻译 GitHub 仓库描述，请访问 openrouter.ai 获取",
+    "updateInterval": "数据更新间隔",
+    "updateIntervalRequired": "请输入更新间隔",
+    "updateIntervalPlaceholder": "6",
+    "hours": "小时",
+    "proxyUrl": "代理服务器",
+    "proxyPlaceholder": "http://127.0.0.1:7890",
+    "proxyTip": "用于访问 GitHub，格式如：http://127.0.0.1:7890 或 socks5://127.0.0.1:1080",
+    "language": "界面语言",
+    "chinese": "中文",
+    "english": "英文",
+    "saveSuccess": "设置已保存",
+    "required": "不能为空"
+  }
+}

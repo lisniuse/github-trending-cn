@@ -1,0 +1,53 @@
+{
+  "common": {
+    "refresh": "Refresh",
+    "loading": "Loading...",
+    "noRepositories": "No repositories found",
+    "noDescription": "No description",
+    "showOriginal": "Show original",
+    "language": "Programming Language",
+    "stars": "Stars",
+    "forks": "Forks",
+    "starsToday": "Stars today",
+    "clearData": "Clear Local Data",
+    "clearSuccess": "Data cleared successfully",
+    "clearFailed": "Failed to clear data",
+    "trending": "Trending",
+    "history": "History",
+    "errors": {
+      "loadFailed": "Failed to load data",
+      "loadSettingsFailed": "Failed to load settings",
+      "saveSettingsFailed": "Failed to save settings",
+      "loadHistoryFailed": "Failed to load history"
+    }
+  },
+  "history": {
+    "title": "Historical Trending Projects",
+    "firstSeen": "First Seen"
+  },
+  "tabs": {
+    "daily": "Daily Trending",
+    "weekly": "Weekly Trending",
+    "monthly": "Monthly Trending",
+    "history": "History"
+  },
+  "settings": {
+    "title": "Settings",
+    "apiKey": "OpenRouter API Key",
+    "apiKeyRequired": "Please enter API key",
+    "apiKeyPlaceholder": "Enter your OpenRouter API key",
+    "apiKeyTip": "Used for translating GitHub repository descriptions, visit openrouter.ai to get one",
+    "updateInterval": "Data Update Interval",
+    "updateIntervalRequired": "Please enter update interval",
+    "updateIntervalPlaceholder": "6",
+    "hours": "hours",
+    "proxyUrl": "Proxy Server",
+    "proxyPlaceholder": "http://127.0.0.1:7890",
+    "proxyTip": "Used for accessing GitHub, format: http://127.0.0.1:7890 or socks5://127.0.0.1:1080",
+    "language": "Interface Language",
+    "chinese": "Chinese",
+    "english": "English",
+    "saveSuccess": "Settings saved successfully",
+    "required": " is required"
+  }
+}

@@ -1,0 +1,74 @@
+/* 主应用样式 */
+.trending-app {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* 仓库列表样式 */
+.repository-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.repository-card {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.repository-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.repo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.repo-stats {
+  display: flex;
+  gap: 8px;
+}
+
+.repo-description {
+  position: relative;
+}
+
+.original-text-hint {
+  position: absolute;
+  right: 0;
+  bottom: -20px;
+  font-size: 12px;
+  cursor: help;
+}
+
+/* 加载状态样式 */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+/* 空状态样式 */
+.empty-state {
+  text-align: center;
+  padding: 40px;
+  color: var(--color-text-3);
+}
