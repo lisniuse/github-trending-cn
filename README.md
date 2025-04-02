@@ -33,8 +33,8 @@ A cross-platform desktop application built with Electron and React to browse Git
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/lisniuse/CodeBundle.git
-    cd CodeBundle
+    git clone git@github.com:lisniuse/github-trending-cn.git
+    cd github-trending-cn
     ```
 2.  **Install dependencies:**
     ```bash

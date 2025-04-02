@@ -33,8 +33,8 @@
 
 1.  **克隆仓库:**
     ```bash
-    git clone https://github.com/lisniuse/CodeBundle.git
-    cd CodeBundle
+    git clone git@github.com:lisniuse/github-trending-cn.git
+    cd github-trending-cn
     ```
 2.  **安装依赖:**
     ```bash
