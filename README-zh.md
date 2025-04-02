@@ -1,6 +1,6 @@
 # GitHub-Trending 桌面应用
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)](https://github.com/lisniuse/CodeBundle/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)](LICENSE)
 
 一个使用 Electron 和 React 构建的跨平台桌面应用程序，用于浏览 GitHub 趋势 (Trending) 仓库，并特别提供了仓库描述的中文翻译功能。
 

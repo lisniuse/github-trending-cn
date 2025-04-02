@@ -1,6 +1,6 @@
 # GitHub-Trending Desktop App
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)](https://github.com/lisniuse/CodeBundle/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)](LICENSE)
 
 A cross-platform desktop application built with Electron and React to browse GitHub Trending repositories, featuring automatic translation of repository descriptions to Chinese.
 
